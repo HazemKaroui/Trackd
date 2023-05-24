@@ -1,0 +1,59 @@
+syntax = "proto3";
+package tracker;
+option go_package = "/tracker";
+
+message CreateTrackedRequest {
+    int64 userID = 1;
+    string title = 2;
+    string description = 3;
+    string cover = 4;
+    string category = 5;
+    string genre = 6;
+    string rating = 7;
+}
+
+message CreateTrackedResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message GetTrackedsRequest {
+    int64 userID = 1;
+}
+
+message GetTrackedsResponse {
+    bool success = 1;
+    string message = 2;
+    string data = 3;
+}
+
+message UpdateTrackedRequest {
+    int64 id = 1;
+    string title = 2;
+    string description = 3;
+    string cover = 4;
+    string category = 5;
+    string genre = 6;
+    string rating = 7;
+}
+
+message UpdateTrackedResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message DeleteTrackedRequest {
+    int64 id = 1;
+}
+
+message DeleteTrackedResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+service TrackedService {
+    rpc CreateTracked(CreateTrackedRequest) returns (CreateTrackedResponse) {}
+    rpc GetTrackeds(GetTrackedsRequest) returns (GetTrackedsResponse) {}
+    rpc UpdateTracked(UpdateTrackedRequest) returns (UpdateTrackedResponse) {}
+    rpc DeleteTracked(DeleteTrackedRequest) returns (DeleteTrackedResponse) {}
+}
