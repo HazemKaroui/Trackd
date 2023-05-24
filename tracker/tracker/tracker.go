@@ -8,13 +8,13 @@ import (
 
 type Server struct {
 	trackedUsecase usecase.TrackedUsecase
-	UnimplementedTrackedServiceServer
+	UnimplementedTrackerServiceServer
 }
 
 func InitServer(trackedUsecase usecase.TrackedUsecase) Server {
 	return Server{
 		trackedUsecase,
-		UnimplementedTrackedServiceServer{},
+		UnimplementedTrackerServiceServer{},
 	}
 }
 

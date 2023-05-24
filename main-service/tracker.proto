@@ -51,7 +51,7 @@ message DeleteTrackedResponse {
     string message = 2;
 }
 
-service TrackedService {
+service TrackerService {
     rpc CreateTracked(CreateTrackedRequest) returns (CreateTrackedResponse) {}
     rpc GetTrackeds(GetTrackedsRequest) returns (GetTrackedsResponse) {}
     rpc UpdateTracked(UpdateTrackedRequest) returns (UpdateTrackedResponse) {}

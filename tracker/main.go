@@ -21,7 +21,7 @@ func main() {
 
 	grpcServer := grpc.NewServer()
 
-	tracker.RegisterTrackedServiceServer(grpcServer, &s)
+	tracker.RegisterTrackerServiceServer(grpcServer, &s)
 
 	lis, err := net.Listen("tcp", fmt.Sprintf(":%d", 3000))
 	if err != nil {

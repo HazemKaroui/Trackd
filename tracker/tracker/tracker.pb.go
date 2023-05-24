@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.28.1
 // 	protoc        v4.22.0
-// source: tracked.proto
+// source: tracker.proto
 
 package tracker
 
@@ -37,7 +37,7 @@ type CreateTrackedRequest struct {
 func (x *CreateTrackedRequest) Reset() {
 	*x = CreateTrackedRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_tracked_proto_msgTypes[0]
+		mi := &file_tracker_proto_msgTypes[0]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -50,7 +50,7 @@ func (x *CreateTrackedRequest) String() string {
 func (*CreateTrackedRequest) ProtoMessage() {}
 
 func (x *CreateTrackedRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_tracked_proto_msgTypes[0]
+	mi := &file_tracker_proto_msgTypes[0]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -63,7 +63,7 @@ func (x *CreateTrackedRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CreateTrackedRequest.ProtoReflect.Descriptor instead.
 func (*CreateTrackedRequest) Descriptor() ([]byte, []int) {
-	return file_tracked_proto_rawDescGZIP(), []int{0}
+	return file_tracker_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *CreateTrackedRequest) GetUserID() int64 {
@@ -127,7 +127,7 @@ type CreateTrackedResponse struct {
 func (x *CreateTrackedResponse) Reset() {
 	*x = CreateTrackedResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_tracked_proto_msgTypes[1]
+		mi := &file_tracker_proto_msgTypes[1]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -140,7 +140,7 @@ func (x *CreateTrackedResponse) String() string {
 func (*CreateTrackedResponse) ProtoMessage() {}
 
 func (x *CreateTrackedResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_tracked_proto_msgTypes[1]
+	mi := &file_tracker_proto_msgTypes[1]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -153,7 +153,7 @@ func (x *CreateTrackedResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use CreateTrackedResponse.ProtoReflect.Descriptor instead.
 func (*CreateTrackedResponse) Descriptor() ([]byte, []int) {
-	return file_tracked_proto_rawDescGZIP(), []int{1}
+	return file_tracker_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *CreateTrackedResponse) GetSuccess() bool {
@@ -181,7 +181,7 @@ type GetTrackedsRequest struct {
 func (x *GetTrackedsRequest) Reset() {
 	*x = GetTrackedsRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_tracked_proto_msgTypes[2]
+		mi := &file_tracker_proto_msgTypes[2]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -194,7 +194,7 @@ func (x *GetTrackedsRequest) String() string {
 func (*GetTrackedsRequest) ProtoMessage() {}
 
 func (x *GetTrackedsRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_tracked_proto_msgTypes[2]
+	mi := &file_tracker_proto_msgTypes[2]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -207,7 +207,7 @@ func (x *GetTrackedsRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GetTrackedsRequest.ProtoReflect.Descriptor instead.
 func (*GetTrackedsRequest) Descriptor() ([]byte, []int) {
-	return file_tracked_proto_rawDescGZIP(), []int{2}
+	return file_tracker_proto_rawDescGZIP(), []int{2}
 }
 
 func (x *GetTrackedsRequest) GetUserID() int64 {
@@ -230,7 +230,7 @@ type GetTrackedsResponse struct {
 func (x *GetTrackedsResponse) Reset() {
 	*x = GetTrackedsResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_tracked_proto_msgTypes[3]
+		mi := &file_tracker_proto_msgTypes[3]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -243,7 +243,7 @@ func (x *GetTrackedsResponse) String() string {
 func (*GetTrackedsResponse) ProtoMessage() {}
 
 func (x *GetTrackedsResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_tracked_proto_msgTypes[3]
+	mi := &file_tracker_proto_msgTypes[3]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -256,7 +256,7 @@ func (x *GetTrackedsResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use GetTrackedsResponse.ProtoReflect.Descriptor instead.
 func (*GetTrackedsResponse) Descriptor() ([]byte, []int) {
-	return file_tracked_proto_rawDescGZIP(), []int{3}
+	return file_tracker_proto_rawDescGZIP(), []int{3}
 }
 
 func (x *GetTrackedsResponse) GetSuccess() bool {
@@ -297,7 +297,7 @@ type UpdateTrackedRequest struct {
 func (x *UpdateTrackedRequest) Reset() {
 	*x = UpdateTrackedRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_tracked_proto_msgTypes[4]
+		mi := &file_tracker_proto_msgTypes[4]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -310,7 +310,7 @@ func (x *UpdateTrackedRequest) String() string {
 func (*UpdateTrackedRequest) ProtoMessage() {}
 
 func (x *UpdateTrackedRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_tracked_proto_msgTypes[4]
+	mi := &file_tracker_proto_msgTypes[4]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -323,7 +323,7 @@ func (x *UpdateTrackedRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UpdateTrackedRequest.ProtoReflect.Descriptor instead.
 func (*UpdateTrackedRequest) Descriptor() ([]byte, []int) {
-	return file_tracked_proto_rawDescGZIP(), []int{4}
+	return file_tracker_proto_rawDescGZIP(), []int{4}
 }
 
 func (x *UpdateTrackedRequest) GetId() int64 {
@@ -387,7 +387,7 @@ type UpdateTrackedResponse struct {
 func (x *UpdateTrackedResponse) Reset() {
 	*x = UpdateTrackedResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_tracked_proto_msgTypes[5]
+		mi := &file_tracker_proto_msgTypes[5]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -400,7 +400,7 @@ func (x *UpdateTrackedResponse) String() string {
 func (*UpdateTrackedResponse) ProtoMessage() {}
 
 func (x *UpdateTrackedResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_tracked_proto_msgTypes[5]
+	mi := &file_tracker_proto_msgTypes[5]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -413,7 +413,7 @@ func (x *UpdateTrackedResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use UpdateTrackedResponse.ProtoReflect.Descriptor instead.
 func (*UpdateTrackedResponse) Descriptor() ([]byte, []int) {
-	return file_tracked_proto_rawDescGZIP(), []int{5}
+	return file_tracker_proto_rawDescGZIP(), []int{5}
 }
 
 func (x *UpdateTrackedResponse) GetSuccess() bool {
@@ -441,7 +441,7 @@ type DeleteTrackedRequest struct {
 func (x *DeleteTrackedRequest) Reset() {
 	*x = DeleteTrackedRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_tracked_proto_msgTypes[6]
+		mi := &file_tracker_proto_msgTypes[6]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -454,7 +454,7 @@ func (x *DeleteTrackedRequest) String() string {
 func (*DeleteTrackedRequest) ProtoMessage() {}
 
 func (x *DeleteTrackedRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_tracked_proto_msgTypes[6]
+	mi := &file_tracker_proto_msgTypes[6]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -467,7 +467,7 @@ func (x *DeleteTrackedRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use DeleteTrackedRequest.ProtoReflect.Descriptor instead.
 func (*DeleteTrackedRequest) Descriptor() ([]byte, []int) {
-	return file_tracked_proto_rawDescGZIP(), []int{6}
+	return file_tracker_proto_rawDescGZIP(), []int{6}
 }
 
 func (x *DeleteTrackedRequest) GetId() int64 {
@@ -489,7 +489,7 @@ type DeleteTrackedResponse struct {
 func (x *DeleteTrackedResponse) Reset() {
 	*x = DeleteTrackedResponse{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_tracked_proto_msgTypes[7]
+		mi := &file_tracker_proto_msgTypes[7]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -502,7 +502,7 @@ func (x *DeleteTrackedResponse) String() string {
 func (*DeleteTrackedResponse) ProtoMessage() {}
 
 func (x *DeleteTrackedResponse) ProtoReflect() protoreflect.Message {
-	mi := &file_tracked_proto_msgTypes[7]
+	mi := &file_tracker_proto_msgTypes[7]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -515,7 +515,7 @@ func (x *DeleteTrackedResponse) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use DeleteTrackedResponse.ProtoReflect.Descriptor instead.
 func (*DeleteTrackedResponse) Descriptor() ([]byte, []int) {
-	return file_tracked_proto_rawDescGZIP(), []int{7}
+	return file_tracker_proto_rawDescGZIP(), []int{7}
 }
 
 func (x *DeleteTrackedResponse) GetSuccess() bool {
@@ -532,10 +532,10 @@ func (x *DeleteTrackedResponse) GetMessage() string {
 	return ""
 }
 
-var File_tracked_proto protoreflect.FileDescriptor
+var File_tracker_proto protoreflect.FileDescriptor
 
-var file_tracked_proto_rawDesc = []byte{
-	0x0a, 0x0d, 0x74, 0x72, 0x61, 0x63, 0x6b, 0x65, 0x64, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12,
+var file_tracker_proto_rawDesc = []byte{
+	0x0a, 0x0d, 0x74, 0x72, 0x61, 0x63, 0x6b, 0x65, 0x72, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12,
 	0x07, 0x74, 0x72, 0x61, 0x63, 0x6b, 0x65, 0x72, 0x22, 0xc6, 0x01, 0x0a, 0x14, 0x43, 0x72, 0x65,
 	0x61, 0x74, 0x65, 0x54, 0x72, 0x61, 0x63, 0x6b, 0x65, 0x64, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73,
 	0x74, 0x12, 0x16, 0x0a, 0x06, 0x75, 0x73, 0x65, 0x72, 0x49, 0x44, 0x18, 0x01, 0x20, 0x01, 0x28,
@@ -587,7 +587,7 @@ var file_tracked_proto_rawDesc = []byte{
 	0x63, 0x63, 0x65, 0x73, 0x73, 0x18, 0x01, 0x20, 0x01, 0x28, 0x08, 0x52, 0x07, 0x73, 0x75, 0x63,
 	0x63, 0x65, 0x73, 0x73, 0x12, 0x18, 0x0a, 0x07, 0x6d, 0x65, 0x73, 0x73, 0x61, 0x67, 0x65, 0x18,
 	0x02, 0x20, 0x01, 0x28, 0x09, 0x52, 0x07, 0x6d, 0x65, 0x73, 0x73, 0x61, 0x67, 0x65, 0x32, 0xd2,
-	0x02, 0x0a, 0x0e, 0x54, 0x72, 0x61, 0x63, 0x6b, 0x65, 0x64, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63,
+	0x02, 0x0a, 0x0e, 0x54, 0x72, 0x61, 0x63, 0x6b, 0x65, 0x72, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63,
 	0x65, 0x12, 0x50, 0x0a, 0x0d, 0x43, 0x72, 0x65, 0x61, 0x74, 0x65, 0x54, 0x72, 0x61, 0x63, 0x6b,
 	0x65, 0x64, 0x12, 0x1d, 0x2e, 0x74, 0x72, 0x61, 0x63, 0x6b, 0x65, 0x72, 0x2e, 0x43, 0x72, 0x65,
 	0x61, 0x74, 0x65, 0x54, 0x72, 0x61, 0x63, 0x6b, 0x65, 0x64, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73,
@@ -613,19 +613,19 @@ var file_tracked_proto_rawDesc = []byte{
 }
 
 var (
-	file_tracked_proto_rawDescOnce sync.Once
-	file_tracked_proto_rawDescData = file_tracked_proto_rawDesc
+	file_tracker_proto_rawDescOnce sync.Once
+	file_tracker_proto_rawDescData = file_tracker_proto_rawDesc
 )
 
-func file_tracked_proto_rawDescGZIP() []byte {
-	file_tracked_proto_rawDescOnce.Do(func() {
-		file_tracked_proto_rawDescData = protoimpl.X.CompressGZIP(file_tracked_proto_rawDescData)
+func file_tracker_proto_rawDescGZIP() []byte {
+	file_tracker_proto_rawDescOnce.Do(func() {
+		file_tracker_proto_rawDescData = protoimpl.X.CompressGZIP(file_tracker_proto_rawDescData)
 	})
-	return file_tracked_proto_rawDescData
+	return file_tracker_proto_rawDescData
 }
 
-var file_tracked_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
-var file_tracked_proto_goTypes = []interface{}{
+var file_tracker_proto_msgTypes = make([]protoimpl.MessageInfo, 8)
+var file_tracker_proto_goTypes = []interface{}{
 	(*CreateTrackedRequest)(nil),  // 0: tracker.CreateTrackedRequest
 	(*CreateTrackedResponse)(nil), // 1: tracker.CreateTrackedResponse
 	(*GetTrackedsRequest)(nil),    // 2: tracker.GetTrackedsRequest
@@ -635,15 +635,15 @@ var file_tracked_proto_goTypes = []interface{}{
 	(*DeleteTrackedRequest)(nil),  // 6: tracker.DeleteTrackedRequest
 	(*DeleteTrackedResponse)(nil), // 7: tracker.DeleteTrackedResponse
 }
-var file_tracked_proto_depIdxs = []int32{
-	0, // 0: tracker.TrackedService.CreateTracked:input_type -> tracker.CreateTrackedRequest
-	2, // 1: tracker.TrackedService.GetTrackeds:input_type -> tracker.GetTrackedsRequest
-	4, // 2: tracker.TrackedService.UpdateTracked:input_type -> tracker.UpdateTrackedRequest
-	6, // 3: tracker.TrackedService.DeleteTracked:input_type -> tracker.DeleteTrackedRequest
-	1, // 4: tracker.TrackedService.CreateTracked:output_type -> tracker.CreateTrackedResponse
-	3, // 5: tracker.TrackedService.GetTrackeds:output_type -> tracker.GetTrackedsResponse
-	5, // 6: tracker.TrackedService.UpdateTracked:output_type -> tracker.UpdateTrackedResponse
-	7, // 7: tracker.TrackedService.DeleteTracked:output_type -> tracker.DeleteTrackedResponse
+var file_tracker_proto_depIdxs = []int32{
+	0, // 0: tracker.TrackerService.CreateTracked:input_type -> tracker.CreateTrackedRequest
+	2, // 1: tracker.TrackerService.GetTrackeds:input_type -> tracker.GetTrackedsRequest
+	4, // 2: tracker.TrackerService.UpdateTracked:input_type -> tracker.UpdateTrackedRequest
+	6, // 3: tracker.TrackerService.DeleteTracked:input_type -> tracker.DeleteTrackedRequest
+	1, // 4: tracker.TrackerService.CreateTracked:output_type -> tracker.CreateTrackedResponse
+	3, // 5: tracker.TrackerService.GetTrackeds:output_type -> tracker.GetTrackedsResponse
+	5, // 6: tracker.TrackerService.UpdateTracked:output_type -> tracker.UpdateTrackedResponse
+	7, // 7: tracker.TrackerService.DeleteTracked:output_type -> tracker.DeleteTrackedResponse
 	4, // [4:8] is the sub-list for method output_type
 	0, // [0:4] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
@@ -651,13 +651,13 @@ var file_tracked_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for field type_name
 }
 
-func init() { file_tracked_proto_init() }
-func file_tracked_proto_init() {
-	if File_tracked_proto != nil {
+func init() { file_tracker_proto_init() }
+func file_tracker_proto_init() {
+	if File_tracker_proto != nil {
 		return
 	}
 	if !protoimpl.UnsafeEnabled {
-		file_tracked_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
+		file_tracker_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*CreateTrackedRequest); i {
 			case 0:
 				return &v.state
@@ -669,7 +669,7 @@ func file_tracked_proto_init() {
 				return nil
 			}
 		}
-		file_tracked_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
+		file_tracker_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*CreateTrackedResponse); i {
 			case 0:
 				return &v.state
@@ -681,7 +681,7 @@ func file_tracked_proto_init() {
 				return nil
 			}
 		}
-		file_tracked_proto_msgTypes[2].Exporter = func(v interface{}, i int) interface{} {
+		file_tracker_proto_msgTypes[2].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*GetTrackedsRequest); i {
 			case 0:
 				return &v.state
@@ -693,7 +693,7 @@ func file_tracked_proto_init() {
 				return nil
 			}
 		}
-		file_tracked_proto_msgTypes[3].Exporter = func(v interface{}, i int) interface{} {
+		file_tracker_proto_msgTypes[3].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*GetTrackedsResponse); i {
 			case 0:
 				return &v.state
@@ -705,7 +705,7 @@ func file_tracked_proto_init() {
 				return nil
 			}
 		}
-		file_tracked_proto_msgTypes[4].Exporter = func(v interface{}, i int) interface{} {
+		file_tracker_proto_msgTypes[4].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*UpdateTrackedRequest); i {
 			case 0:
 				return &v.state
@@ -717,7 +717,7 @@ func file_tracked_proto_init() {
 				return nil
 			}
 		}
-		file_tracked_proto_msgTypes[5].Exporter = func(v interface{}, i int) interface{} {
+		file_tracker_proto_msgTypes[5].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*UpdateTrackedResponse); i {
 			case 0:
 				return &v.state
@@ -729,7 +729,7 @@ func file_tracked_proto_init() {
 				return nil
 			}
 		}
-		file_tracked_proto_msgTypes[6].Exporter = func(v interface{}, i int) interface{} {
+		file_tracker_proto_msgTypes[6].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*DeleteTrackedRequest); i {
 			case 0:
 				return &v.state
@@ -741,7 +741,7 @@ func file_tracked_proto_init() {
 				return nil
 			}
 		}
-		file_tracked_proto_msgTypes[7].Exporter = func(v interface{}, i int) interface{} {
+		file_tracker_proto_msgTypes[7].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*DeleteTrackedResponse); i {
 			case 0:
 				return &v.state
@@ -758,18 +758,18 @@ func file_tracked_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: file_tracked_proto_rawDesc,
+			RawDescriptor: file_tracker_proto_rawDesc,
 			NumEnums:      0,
 			NumMessages:   8,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_tracked_proto_goTypes,
-		DependencyIndexes: file_tracked_proto_depIdxs,
-		MessageInfos:      file_tracked_proto_msgTypes,
+		GoTypes:           file_tracker_proto_goTypes,
+		DependencyIndexes: file_tracker_proto_depIdxs,
+		MessageInfos:      file_tracker_proto_msgTypes,
 	}.Build()
-	File_tracked_proto = out.File
-	file_tracked_proto_rawDesc = nil
-	file_tracked_proto_goTypes = nil
-	file_tracked_proto_depIdxs = nil
+	File_tracker_proto = out.File
+	file_tracker_proto_rawDesc = nil
+	file_tracker_proto_goTypes = nil
+	file_tracker_proto_depIdxs = nil
 }
