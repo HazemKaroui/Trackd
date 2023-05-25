@@ -5,7 +5,7 @@
 </h1>
 
 <div align="center">
-  <h3>Trackd</h3>
+  <h1>Trackd</h1>
   <p>A personal watch list tracking service for your movies and TV shows, built to get familiar with microservices and gRPC</p>
 </div>
 
