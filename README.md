@@ -46,11 +46,10 @@
 ---
 
 ## Architecture
-The app is layed out like so
 
 ![architecture](readme/architecture.png)
 
-It's made out of 3 Golang microservices that communicate with a Flask gateway using gRPC.
+The app is layed out into 3 Golang microservices that communicate with a Flask gateway using gRPC.
 The gateway provides a REST API to be consumed by a headless webapp.
 
 ### Auth
