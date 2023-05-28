@@ -14,7 +14,7 @@
 
 [![license](https://img.shields.io/github/license/HazemKaroui/Trackd?style=flat-square)](LICENSE)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/HazemKaroui/Trackd/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-![Issues](https://img.shields.io/github/issues/HazemKaroui/Trackd?style=flat-square)
+[![Issues](https://img.shields.io/github/issues/HazemKaroui/Trackd?style=flat-square)](https://github.com/HazemKaroui/Trackd/issues)
 
 </div>
 
