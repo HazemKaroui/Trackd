@@ -71,13 +71,9 @@ Clone the project
 
 ```bash
   git clone https://github.com/HazemKaroui/Trackd.git
-```
-
-Go to the project directory
-
-```bash
   cd Trackd
 ```
+
 ### Set up the main service
 - Go to the main-service directory
 - Create a virtual python environment and activate it
