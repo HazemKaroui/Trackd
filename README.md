@@ -62,9 +62,9 @@ The microservice responsible for recording and editing entries in the watch list
 The microservice responsible for querying TMDB API and feeding movie/TV show metadata and cover images to the Tracker microservice.
 ## Roadmap
 
-- Finish out the JWT authentication flow
+- Finish the JWT authentication flow
 - Implement the Meta microservice
-- Deploy on the cloud with Kubernetes
+- Deploy with Kubernetes
 ## Run Locally
 
 Clone the project
@@ -84,7 +84,7 @@ Go to the project directory
 - Install dependencies with
 
 ```bash
-  pip install
+  pip install -r requirements.txt 
 ```
 
 ### Set up the microservices
